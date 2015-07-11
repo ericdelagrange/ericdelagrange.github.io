@@ -21,3 +21,15 @@ http://www.smashingmagazine.com/2014/02/27/making-embedded-content-work-in-respo
 .video-row {
     margin-top: 10px;
 }
+
+.panel {
+    background-color: {{ site.color.primary-dark }};
+}
+
+.panel-heading {
+    background-color: {{ site.color.primary-dark }} !important;
+}
+
+.panel-title a {
+    color: #fff;
+}
