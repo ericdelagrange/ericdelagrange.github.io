@@ -1,0 +1,32 @@
+- title: Magic Flute
+  id: magic-flute
+  slides:
+    - filename: magic-flute1.jpg
+    - filename: magic-flute2.jpg
+    - filename: magic-flute3.jpg
+    - filename: magic-flute4.jpg
+    - filename: magic-flute5.jpg
+    - filename: magic-flute6.jpg
+    - filename: magic-flute7.jpg
+- title: La Traviata
+  id: la-traviata
+  slides:
+    - filename: la-traviata1.jpg
+    - filename: la-traviata2.jpg
+    - filename: la-traviata3.jpg
+    - filename: la-traviata4.jpg
+    - filename: la-traviata5.jpg
+    - filename: la-traviata6.jpg
+    - filename: la-traviata7.jpg
+    - filename: la-traviata8.jpg
+    - filename: la-traviata9.jpg
+    - filename: la-traviata10.jpg
+- title: Falstaff
+  id: falstaff
+  slides:
+    - filename: falstaff1.jpg
+    - filename: falstaff2.jpg
+    - filename: falstaff3.jpg
+    - filename: falstaff4.jpg
+    - filename: falstaff5.jpg
+    - filename: falstaff6.jpg
