@@ -1,0 +1,15 @@
+- name: home
+  route: "/"
+  label: Home
+- name: about
+  route: "/about"
+  label: About
+- name: contact
+  route: "/contact"
+  label: Contact
+- name: media
+  route: "/media"
+  label: Media
+- name: resume
+  route: "/resume"
+  label: Resume
