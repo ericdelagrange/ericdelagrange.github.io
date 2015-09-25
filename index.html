@@ -3,18 +3,15 @@ layout: default
 page_name: home
 ---
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="/images/headshot.jpg">
-          <div class="carousel-caption">
-            <blockquote cite="http://www.brooklyneagle.com/articles/2014/8/6/martina-arroyo-foundation-presents-la-traviata-hunter-college">Eric Delagrange was a resonant and sympathetic Dr. Grenvil</blockquote>
-            <blockquote cite="http://www.vocedimeche.reviews/2014/07/the-astonishing-ascent-of-fallen-woman.html">Eric Delagrange made a fine concerned but helpless Dr. Grenvil</blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="col-md-8">
+    <img src="/images/headshot.jpg" class="img-responsive">
+  </div>
+  <div class="col-md-4">
+  {% for review in site.data.reviews %}
+    <blockquote>
+      <p>{{ review.content }}</p>
+      <footer><a href="{{ review.link }}">{{ review.source }}</a></footer>
+    </blockquote>
+  {% endfor %}
   </div>
 </div>
